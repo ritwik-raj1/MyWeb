@@ -69,23 +69,22 @@ body {
 
 @keyframes startAnimation {
   0% {
-    transform: translate(0,0);
+    transform: translate(0, 0);
     opacity: 0;
   }
-  25% {
+  /* 25% {
     transform: translate(100px,0);
     opacity: 1;
-  }
-  50% {
-    transform: translate(0,0);
+  } */
+  /* 50% {
+    transform: translate(0, 0);
     opacity: 0;
-  }
+  } */
   100% {
-    transform: translate(0,0);
+    transform: translate(0, 0);
     opacity: 1;
   }
 }
-
 
 .profile-description {
   flex: 1;
